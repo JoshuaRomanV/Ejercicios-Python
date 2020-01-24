@@ -3,7 +3,7 @@ from reportlab.lib import colors
 from reportlab.lib.pagesizes import letter
 I= Image("C:/Users/Administrador/Desktop/Josh.jpg", width= 100, height= 100)
 
-pdf= SimpleDocTemplate("Ejercicio .pdf", pagezise= letter)
+pdf= SimpleDocTemplate("Ejercicio PDF.pdf", pagezise= letter)
 t = Table([
     [I,'Joshua Roman Vazquez Benitez.',],
     ['Materia', 'Calificacion'],
