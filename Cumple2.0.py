@@ -3,7 +3,7 @@ import sys
 print("\nBienvenido!")
 print("\nEn este programa podras saber que dia de la semana sera tu cumpleaños c:")
 d = int(input("\nPor favor ingrese su dia de nacimiento:  "))
-if d > 1 or d<31:
+if d > 1 and d<31:
     dia = d
 else:
     print("No es un dia valido, por favor confirmelo y vuelva a intentarlo :c")
